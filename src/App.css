@@ -1,0 +1,50 @@
+.App {
+  margin: 20px; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .inputArea{
+  border: 1px solid blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.App input{
+  margin-left: 15px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.close{
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.App .inputArea input::placeholder{
+  color: gray;
+  font-size: 13px;
+
+}
+p{
+  margin: 10px;
+  font-size: 18px;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+p:hover{
+  color: blue;
+}
+
+
+
